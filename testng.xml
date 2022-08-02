@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+	<test verbose="2" preserve-order="true" name="Test Set 1">
+		<classes>
+			<class name="TestNGTutorial">
+				<methods>
+					<include name="Demo"/>
+					<include name="Demo2"/>
+				</methods>
+			</class>
+			<class name="TestNGTutorial2">
+				<methods>
+					<include name="demo3"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test verbose="2" preserve-order="true" name="Test Set 2">
+		<classes>
+			<class name="TestNGTutorial3">
+				<methods>
+					<include name="webLogin"/>
+<!--					<include name="mobileLogin"/>-->
+					<include name="apiLogin"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
