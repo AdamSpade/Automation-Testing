@@ -24,6 +24,6 @@ public class StepDefinition {
 
     @And("All cards are displayed")
     public void allCardsAreDisplayed() {
-        
+
     }
 }
